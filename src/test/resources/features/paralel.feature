@@ -1,4 +1,4 @@
-Feature: Adidas Order Placement Functionalities
+Feature: Adidas Order Placement for Paralel
   Agile Story: As a user, I should be able to place order from the Website
 
   Background: Go to home page
