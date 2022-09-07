@@ -75,7 +75,7 @@ public class Driver {
                         remoteCapability.setCapability(CapabilityType.ACCEPT_INSECURE_CERTS, true);
                         remoteCapability.setCapability("platform",Platform.ANY);
                         try{
-                            driverPool.set(new RemoteWebDriver(new URL("http://44.193.8.240:4444/wd/hub"),remoteCapability));
+                            driverPool.set(new RemoteWebDriver(new URL("https://oauth-sdetoscar-844c8:fd6a14f0-2235-4d17-98c5-9f9ec1e8200e@ondemand.eu-central-1.saucelabs.com:443/wd/hub"),remoteCapability));
                         } catch (MalformedURLException e){
                             e.printStackTrace();
                         }
